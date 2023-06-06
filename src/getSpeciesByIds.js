@@ -2,7 +2,6 @@ const data = require('../data/zoo_data');
 const { species } = require('../data/zoo_data');
 
 function getSpeciesByIds(...ids) {
-  // seu código aqui
   const result = [];
   for (let index = 0; index < ids.length; index += 1) {
     species.filter((specie) => specie.id === ids[index]);

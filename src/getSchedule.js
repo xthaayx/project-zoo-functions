@@ -22,7 +22,6 @@ const schedule = {
 };
 
 function getSchedule(scheduleTarget) {
-  // seu código aqui
   if (!scheduleTarget) return schedule;
   if (!nameAnimals.some((item) => scheduleTarget === item)
   && !days.some((item) => scheduleTarget === item)) return schedule;

@@ -4,7 +4,6 @@ const { species } = require('../data/zoo_data');
 const resultAnimals = {};
 
 function countAnimals(animal) {
-  // seu código aqui
   if (animal === undefined) {
     species.forEach((specie) => {
       resultAnimals[specie.name] = specie.residents.length;
